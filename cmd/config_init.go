@@ -40,6 +40,10 @@ override the options.`,
 				DisableUsedPercentage: mustGetBool(flags, "branding.DisableUsedPercentage"),
 				Files:                 mustGetString(flags, "branding.files"),
 			},
+			OnlyOffice: settings.OnlyOffice{
+				URL:       mustGetString(flags, "onlyoffice.url"),
+				JWTSecret: mustGetString(flags, "onlyoffice.jwtSecret"),
+			},
 		}
 
 		ser := &settings.Server{

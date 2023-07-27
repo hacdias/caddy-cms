@@ -15,6 +15,7 @@ const theme = window.FileBrowser.Theme;
 const enableThumbs = window.FileBrowser.EnableThumbs;
 const resizePreview = window.FileBrowser.ResizePreview;
 const enableExec = window.FileBrowser.EnableExec;
+const onlyOffice = window.FileBrowser.OnlyOffice;
 const origin = window.location.origin;
 
 export {
@@ -34,5 +35,6 @@ export {
   enableThumbs,
   resizePreview,
   enableExec,
+  onlyOffice,
   origin,
 };
